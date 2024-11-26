@@ -1,0 +1,24 @@
+/* Custom styles beyond Tailwind */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('../assets/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Add any additional custom styles here */ 
+
+/* Social Icons Hover Effects */
+.fab {
+    transition: transform 0.2s ease-in-out;
+}
+
+.fab:hover {
+    transform: scale(1.2);
+}
+
+/* Add this to your CSS for active state styling */
+.nav-active {
+    background-color: rgb(55, 65, 81); /* gray-700 */
+    font-weight: 500;
+}
