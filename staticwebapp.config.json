@@ -1,16 +1,38 @@
 {
-  "routes": [
-    {
-      "route": "/*",
-      "serve": "/index.html",
-      "statusCode": 200
-    }
-  ],
   "navigationFallback": {
     "rewrite": "index.html",
-    "exclude": ["/images/*.{png,jpg,gif}", "/css/*", "/js/*"]
+    "exclude": [
+      "/images/*.{png,jpg,gif,ico,svg}",
+      "/css/*",
+      "/js/*",
+      "/*.{css,js}"
+    ]
   },
-  "mimeTypes": {
-    ".json": "text/json"
+  "routes": [
+    {
+      "route": "/index.html",
+      "serve": "/index.html"
+    },
+    {
+      "route": "/about.html",
+      "serve": "/about.html"
+    },
+    {
+      "route": "/faq.html",
+      "serve": "/faq.html"
+    },
+    {
+      "route": "/contact.html",
+      "serve": "/contact.html"
+    },
+    {
+      "route": "/*",
+      "serve": "/404.html"
+    }
+  ],
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/404.html"
+    }
   }
 } 
