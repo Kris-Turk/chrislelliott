@@ -3,12 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - Chris Lelliott - YouTube Channel Manager</title>
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Modern CSS framework - Tailwind CSS -->
+    
+    <!-- SEO Meta Tags -->
+    <title>Chris Lelliott - YouTube Channel Manager & Growth Strategist</title>
+    <meta name="description" content="Expert YouTube channel management services. Grow your channel with data-driven strategies. Currently managing channels with 170K+ subscribers.">
+    <meta name="keywords" content="YouTube channel manager, YouTube growth, channel management, content strategy, YouTube analytics">
+    <meta name="author" content="Chris Lelliott">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://chrislelliott.com/">
+    <meta property="og:title" content="Chris Lelliott - YouTube Channel Manager">
+    <meta property="og:description" content="Expert YouTube channel management services. Grow your channel with data-driven strategies.">
+    <meta property="og:image" content="https://chrislelliott.com/assets/images/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://chrislelliott.com/">
+    <meta property="twitter:title" content="Chris Lelliott - YouTube Channel Manager">
+    <meta property="twitter:description" content="Expert YouTube channel management services. Grow your channel with data-driven strategies.">
+    <meta property="twitter:image" content="https://chrislelliott.com/assets/images/og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- Existing CSS and Scripts -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Chris Lelliott - YouTube Channel Manager",
+      "description": "Expert YouTube channel management services helping creators grow their channels through data-driven strategies.",
+      "image": "https://chrislelliott.com/assets/images/chris-profile.jpg",
+      "url": "https://chrislelliott.com",
+      "telephone": "",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "UK"
+      },
+      "priceRange": "££",
+      "sameAs": [
+        "https://x.com/chris_lelliott",
+        "https://www.linkedin.com/in/chris-lelliott-b85251198/"
+      ]
+    }
+    </script>
 </head>
 <body class="flex flex-col min-h-screen">
     <!-- Navigation Bar -->
@@ -32,76 +79,157 @@
 
     <!-- Main Content -->
     <main class="flex-grow">
-        <div class="max-w-7xl mx-auto px-4 py-12">
-            <!-- Hero Section -->
-            <div class="mb-16 text-center">
-                <h1 class="text-4xl font-bold mb-4">About Chris Lelliott</h1>
-                <p class="text-xl text-gray-600">YouTube Growth Strategist & Analytics Enthusiast</p>
-            </div>
-
-            <!-- Main Content Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <!-- Image Column -->
-                <div class="relative">
-                    <img 
-                        src="assets/images/chris-profile.jpg" 
-                        alt="Chris Lelliott" 
-                        class="rounded-lg shadow-xl w-full h-auto object-cover"
-                        loading="lazy"
-                    />
-                    <div class="absolute -bottom-4 -right-4 bg-white p-3 rounded-lg shadow-lg">
-                        <span class="text-blue-600 font-bold">200K+ Subscribers Managed</span>
+        <!-- Hero Section with Large Profile -->
+        <div class="bg-gray-50 py-20">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <div class="order-2 md:order-1">
+                        <h1 class="text-4xl font-bold mb-4">Chris Lelliott</h1>
+                        <p class="text-xl text-blue-600 font-semibold mb-6">Unashamedly Research-Driven Channel Manager</p>
+                        <p class="text-gray-700 text-lg leading-relaxed">
+                            Since July 2022, I've been transforming YouTube channels through data-driven strategies and comprehensive management. From increasing monthly views from 260k to 2.6M, to boosting sponsorship revenue from £4k to £34k per month - I help creators focus on content while I handle everything else.
+                        </p>
+                    </div>
+                    <div class="order-1 md:order-2">
+                        <div class="relative">
+                            <img 
+                                src="assets/images/chris-profile.jpg" 
+                                alt="Chris Lelliott" 
+                                class="w-full max-w-lg mx-auto rounded-2xl shadow-2xl"
+                            >
+                            <div class="absolute -bottom-4 -right-4 bg-white p-4 rounded-lg shadow-lg">
+                                <span class="text-blue-600 font-bold">170K+ Subscribers Managed</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
 
-                <!-- Text Column -->
-                <div class="space-y-6">
-                    <div>
-                        <h2 class="text-2xl font-semibold mb-3">The Numbers Guy Who Speaks Human</h2>
-                        <p class="text-gray-600">
-                            Hey there! I'm Chris, and I have a slightly unusual passion: I get excited about YouTube analytics. 
-                            Yes, you read that right – those graphs, metrics, and engagement rates that make most people's eyes glaze over? 
-                            They're my idea of a good time! 🤓
+        <!-- Main Content Sections -->
+        <div class="max-w-7xl mx-auto px-4 py-16">
+            <div class="max-w-4xl mx-auto space-y-16">
+                <!-- What is a YouTube Channel Manager Section -->
+                <section>
+                    <h2 class="text-3xl font-bold mb-6">What is a YouTube Channel Manager?</h2>
+                    
+                    <div class="prose prose-lg max-w-none space-y-6">
+                        <p class="text-gray-700">
+                            Before you read this, please, hop on over to another browser tab and search
+                            something like: 'how to make my YouTube channel successful' or something like
+                            that. See you in a bit...
+                        </p>
+
+                        <p class="text-gray-700">
+                            Welcome back. If you did search something akin to the above, you will have
+                            seen the overwhelming amount of information (and, unfortunately,
+                            misinformation) that is available to the new YouTube creator.
+                        </p>
+
+                        <p class="text-gray-700">
+                            But it's incredibly difficult and inordinately time-consuming to wade through
+                            the muck and myre of the internet to find and implement actually effective
+                            strategies for managing and growing a YouTube channel.
+                        </p>
+
+                        <p class="text-gray-700 font-semibold">
+                            This is where I come in...
                         </p>
                     </div>
+                </section>
 
-                    <div>
-                        <h3 class="text-xl font-semibold mb-3">What I Do</h3>
-                        <p class="text-gray-600">
-                            Currently, I'm juggling multiple YouTube channels, including one that's grown to over 200,000 subscribers 
-                            (and counting!). I dive deep into the backend of YouTube, analyzing trends, optimizing content, and crafting 
-                            strategies that turn viewers into loyal subscribers.
+                <!-- What I Do Section -->
+                <section>
+                    <h2 class="text-3xl font-bold mb-6">What I Do</h2>
+                    
+                    <div class="prose prose-lg max-w-none space-y-6">
+                        <p class="text-gray-700">
+                            My Channel Management packages are designed to give my clients the least
+                            amount of work to do possible. Essentially, I operate on a 'you film it, I handle
+                            the rest' basis, giving you the time back to run your business or work your usual
+                            9-5.
+                        </p>
+
+                        <p class="text-gray-700">
+                            I handle the content research and strategy, advising you on what to film;
+                            strategic edits to the script; the packaging (thumbnail and title) research and
+                            design; the editing, the uploading to YouTube, including all the Description
+                            copy and affiliate links (where applicable); and the analytics, which, in turn,
+                            drive the research.
                         </p>
                     </div>
+                </section>
 
-                    <div>
-                        <h3 class="text-xl font-semibold mb-3">Why I Do It</h3>
-                        <p class="text-gray-600">
-                            There's something magical about taking raw data and transforming it into real-world success. Whether it's 
-                            finding the perfect thumbnail that doubles click-through rates, or discovering that sweet spot in video 
-                            length that keeps viewers hanging on every word – these are the puzzles that keep me up at night (in a good way!).
+                <!-- My Experience Section -->
+                <section>
+                    <h2 class="text-3xl font-bold mb-6">My Experience</h2>
+                    
+                    <div class="prose prose-lg max-w-none">
+                        <p class="text-gray-700 mb-6">
+                            Since I started working as Pete Matheson's channel manager back in July 2022, I
+                            have been instrumental in:
                         </p>
-                    </div>
 
-                    <!-- Stats Section -->
-                    <div class="grid grid-cols-2 gap-4 mt-8">
-                        <div class="bg-gray-50 p-4 rounded-lg text-center">
-                            <div class="text-3xl font-bold text-blue-600">200K+</div>
-                            <div class="text-sm text-gray-600">Subscribers Managed</div>
+                        <div class="bg-gray-50 p-8 rounded-lg space-y-3">
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-chart-line text-blue-600"></i>
+                                <span>Increasing views from 260k to 1.1M per month</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-video text-blue-600"></i>
+                                <span>Including Shorts, this is 260k to 2.6M per month</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-eye text-blue-600"></i>
+                                <span>Increasing impressions from 3.5M to 21M per month (including Shorts)</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-dollar-sign text-blue-600"></i>
+                                <span>Tripling AdSense revenue</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-handshake text-blue-600"></i>
+                                <span>Increasing sponsorship revenue from £4k to over £34k per month</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-mouse-pointer text-blue-600"></i>
+                                <span>Increasing CTR by 14% (accounting for an additional 1.5M views per year)</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-clock text-blue-600"></i>
+                                <span>Increasing watch time from 20k hours to 84k hours per month</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-users text-blue-600"></i>
+                                <span>Doubling subscribers gained per month (not including subs gained from short-form)</span>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fas fa-chart-bar text-blue-600"></i>
+                                <span>Including short-form, quadrupling subscribers gained per month</span>
+                            </div>
                         </div>
-                        <div class="bg-gray-50 p-4 rounded-lg text-center">
-                            <div class="text-3xl font-bold text-blue-600">5+</div>
-                            <div class="text-sm text-gray-600">Channels Optimized</div>
-                        </div>
                     </div>
+                </section>
 
-                    <!-- CTA Button -->
-                    <div class="mt-8">
-                        <a href="/contact.html" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
-                            Let's Grow Your Channel Together
+                <!-- Contact CTA Section -->
+                <section class="bg-gray-50 rounded-2xl p-12 shadow-lg text-center">
+                    <h2 class="text-3xl font-bold mb-4">Ready to Transform Your Channel?</h2>
+                    <p class="text-xl text-gray-600 mb-8">Let's discuss how we can work together to grow your YouTube presence</p>
+                    <div class="space-x-4">
+                        <a 
+                            href="contact.html" 
+                            class="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors text-lg font-semibold"
+                        >
+                            Contact Me
+                        </a>
+                        <a 
+                            href="#experience" 
+                            class="inline-block border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg hover:bg-blue-50 transition-colors text-lg font-semibold"
+                        >
+                            See My Results
                         </a>
                     </div>
-                </div>
+                </section>
             </div>
         </div>
     </main>
@@ -112,22 +240,17 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
                     <h3 class="text-lg font-semibold mb-4">Contact</h3>
-                    <p>Email: contact@chrislelliott.com</p>
+                    <p>Email: chris@chrislelliott.com</p>
                 </div>
                 <div>
                     <h3 class="text-lg font-semibold mb-4">Follow</h3>
                     <div class="flex space-x-6">
-                        <a href="#" class="hover:text-gray-300 text-2xl" aria-label="YouTube">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                        <a href="#" class="hover:text-gray-300 text-2xl" aria-label="Twitter">
+                        <a href="https://x.com/chris_lelliott" class="hover:text-gray-300 text-2xl" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
                             <i class="fab fa-x-twitter"></i>
                         </a>
-                        <a href="#" class="hover:text-gray-300 text-2xl" aria-label="LinkedIn">
+                        <a href="https://www.linkedin.com/in/chris-lelliott-b85251198/" class="hover:text-gray-300 text-2xl" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/chris-lelliott/" class="hover:text-gray-300 text-2xl" aria-label="LinkedIn">
                             <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="#" class="hover:text-gray-300 text-2xl" aria-label="Instagram">
-                            <i class="fab fa-instagram"></i>
                         </a>
                     </div>
                 </div>
